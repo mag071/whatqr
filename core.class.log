@@ -1,0 +1,66 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '14079278628@s.whatsapp.net',
+    fromMe: false,
+    id: '3AEAAB4FEA7BFD8F8701',
+    participant: undefined
+  },
+  messageTimestamp: 1716396824,
+  pushName: 'Hector גם זה יעבור',
+  broadcast: false,
+  message: Message {
+    audioMessage: AudioMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7117-24/21319843_3692776917637492_2466818598885890926_n.enc?ccb=11-4&oh=01_Q5AaIJZ56dU5P1l_E3Jo7wmLWAjWqD5OBrhkswdS47Z9bppY&oe=6675A4FA&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'audio/ogg; codecs=opus',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      seconds: 24,
+      ptt: true,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7117-24/21319843_3692776917637492_2466818598885890926_n.enc?ccb=11-4&oh=01_Q5AaIJZ56dU5P1l_E3Jo7wmLWAjWqD5OBrhkswdS47Z9bppY&oe=6675A4FA&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      streamingSidecar: [Uint8Array],
+      waveform: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_voice_note__1baf4de3-6152-4783-ae87-88335eafdb66',
+  from: '14079278628'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '14079278628@s.whatsapp.net',
+    fromMe: false,
+    id: '3A3256446408BFFBFBAB',
+    participant: undefined
+  },
+  messageTimestamp: 1716397431,
+  pushName: 'Hector גם זה יעבור',
+  broadcast: false,
+  message: Message {
+    audioMessage: AudioMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7117-24/35861180_1095995958137172_6205642305813914625_n.enc?ccb=11-4&oh=01_Q5AaIO8osmuYlwjpsdiOwGM-j2rTDtgjdpP_eEsk5oiB2bJw&oe=66758B09&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'audio/ogg; codecs=opus',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      seconds: 13,
+      ptt: true,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7117-24/35861180_1095995958137172_6205642305813914625_n.enc?ccb=11-4&oh=01_Q5AaIO8osmuYlwjpsdiOwGM-j2rTDtgjdpP_eEsk5oiB2bJw&oe=66758B09&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      streamingSidecar: [Uint8Array],
+      waveform: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_voice_note__63184181-8154-47c4-b06d-b3d3700adb9f',
+  from: '14079278628'
+}
