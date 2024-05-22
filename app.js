@@ -59,8 +59,23 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo','hector'])
         ],
         null,
         null,
+        [flowDocs, flowGracias, flowTuto, flowDiscord, flowPrincipal2]
+    )
+
+    const flowPrincipal2 = addKeyword(['hector', 'hetiko', 'aica'])
+    .addAnswer('🙌 Ventajas de tener a tu hermano en USA')
+    .addAnswer(
+        [
+            'podemos hacer estas cosas juntos',
+            '👉 podemos caminar yo soy un entrenador',
+            '👉 podemos programar',
+            '👉 podemos jugar Ajedrez',
+        ],
+        null,
+        null,
         [flowDocs, flowGracias, flowTuto, flowDiscord]
     )
+
 
 const main = async () => {
     const adapterDB = new MockAdapter()
