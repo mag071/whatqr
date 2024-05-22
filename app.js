@@ -48,6 +48,20 @@ const flowDiscord = addKeyword(['discord']).addAnswer(
     [flowSecundario]
 )
 
+const flowHector = addKeyword(['hector']).addAnswer(
+    [
+        'podemos hacer estas cosas juntos',
+        '👉 podemos caminar yo soy un entrenador',
+        '👉 podemos programar',
+        '👉 podemos jugar Ajedrez',
+    ],
+    null,
+    null,
+    [flowSecundario]
+   
+)
+
+
 const flowPrincipal = addKeyword(['hola', 'ole', 'alo','hector'])
     .addAnswer('🙌 Hetiko bienvenido a este *Chatbot*')
     .addAnswer(
@@ -59,23 +73,10 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo','hector'])
         ],
         null,
         null,
-        [flowDocs, flowGracias, flowTuto, flowDiscord, flowPrincipal2]
+        [flowDocs, flowGracias, flowTuto, flowDiscord, flowHector]
     )
 
-    const flowPrincipal2 = addKeyword(['hector', 'hetiko', 'aica'])
-    .addAnswer('🙌 Ventajas de tener a tu hermano en USA')
-    .addAnswer(
-        [
-            'podemos hacer estas cosas juntos',
-            '👉 podemos caminar yo soy un entrenador',
-            '👉 podemos programar',
-            '👉 podemos jugar Ajedrez',
-        ],
-        null,
-        null,
-        [flowDocs, flowGracias, flowTuto, flowDiscord]
-    )
-
+    
 
 const main = async () => {
     const adapterDB = new MockAdapter()
