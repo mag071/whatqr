@@ -62,7 +62,7 @@ const flowHector = addKeyword(['hector']).addAnswer(
 )
 
 
-const flowPrincipal = addKeyword(['hola', 'ole', 'alo','hector'])
+const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
     .addAnswer('🙌 Hetiko bienvenido a este *Chatbot*')
     .addAnswer(
         [
