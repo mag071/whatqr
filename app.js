@@ -50,7 +50,7 @@ const flowDiscord = addKeyword(['discord']).addAnswer(
 
 const flowHector = addKeyword(['hector']).addAnswer(
     [
-        'podemos hacer estas cosas juntos',
+        'Llevame a USA , rudy... podemos hacer estas cosas juntos',
         '👉 podemos caminar yo soy un entrenador',
         '👉 podemos programar',
         '👉 podemos jugar Ajedrez',
